@@ -17,16 +17,13 @@ if (menuToggle && nav) {
   });
 }
 
-const year = document.querySelector("#year");
-if (year) year.textContent = new Date().getFullYear();
+const cvLink = document.querySelector('a[href="assets/your-cv.pdf"]');
 
-document.querySelectorAll("[data-linkedin]").forEach((link) => {
-  link.addEventListener("click", (event) => {
-    if (link.getAttribute("href") === "#") {
-      event.preventDefault();
-      alert("Add your LinkedIn profile URL in index.html before publishing.");
-    }
+if (cvLink) {
+  cvLink.addEventListener("click", () => {
+    console.log("CV download requested.");
   });
+}
 });
 
 const cvLink = document.querySelector('a[href="assets/your-cv.pdf"]');
