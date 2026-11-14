@@ -49,7 +49,13 @@ a { color: inherit; text-decoration: none; }
 .portrait-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 9px; background: radial-gradient(circle at 50% 32%, rgba(159,208,255,.34), transparent 37%), linear-gradient(145deg, rgba(55,105,158,.55), rgba(14,34,61,.2)); }
 .portrait-monogram { display: grid; place-items: center; width: 170px; height: 170px; border: 5px solid rgba(255,255,255,.78); border-radius: 50%; background: linear-gradient(145deg,#258df9,#14528d); color: white; font: 800 2.4rem "Manrope",sans-serif; box-shadow: 0 10px 35px rgba(0,0,0,.18); }
 .portrait-caption { color: rgba(255,255,255,.7); font-size: .6rem; letter-spacing: .18em; }
-.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 85%;}
+.portrait-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transform: translate(15px, 10px);
+}
 .portrait-orbit { position: absolute; z-index: 1; border: 1px solid rgba(151,202,255,.18); border-radius: 50%; }
 .orbit-one { width: 430px; height: 430px; right: 0; bottom: -185px; }
 .orbit-two { width: 560px; height: 560px; right: -65px; bottom: -250px; }
