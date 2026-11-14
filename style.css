@@ -184,3 +184,50 @@ a { color: inherit; text-decoration: none; }
   html { scroll-behavior: auto; }
   *,*::before,*::after { transition-duration: .01ms !important; }
 }
+
+/* FINAL HERO DESIGN FIX */
+
+/* Remove the blue gradient background */
+.hero {
+  background: #101b31 !important;
+}
+
+/* Remove decorative blue circles */
+.hero::before,
+.hero-bottom-shape,
+.portrait-orbit {
+  display: none !important;
+}
+
+/* Remove portrait background and frame */
+.portrait-frame {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+/* Adjust portrait position */
+.portrait-frame img {
+  object-fit: contain !important;
+  object-position: center bottom !important;
+  transform: translateY(18px);
+}
+
+/* Align green indicator */
+.hero-chip {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.chip-dot {
+  display: block !important;
+  width: 7px !important;
+  height: 7px !important;
+  flex: 0 0 7px !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  transform: none !important;
+}
