@@ -54,7 +54,7 @@ a { color: inherit; text-decoration: none; }
     height: 100%;
     object-fit: cover;
     object-position: center top;
-    transform: translate(15px, 10px);
+    transform: translate(150px, 100px);
 }
 .portrait-orbit { position: absolute; z-index: 1; border: 1px solid rgba(151,202,255,.18); border-radius: 50%; }
 .orbit-one { width: 430px; height: 430px; right: 0; bottom: -185px; }
