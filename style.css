@@ -186,9 +186,9 @@ a { color: inherit; text-decoration: none; }
     }
 
     .hero-chip {
-        left: calc(50% + 90px);
+        left: 50%;
         right: auto;
-        transform: translateX(-50%);
+        transform: translateX(90px);
     }
 }
 @media (prefers-reduced-motion: reduce) {
