@@ -189,7 +189,7 @@ a { color: inherit; text-decoration: none; }
         left: calc(50% + 90px);
         right: auto;
         bottom: 36px;
-        transform: translateX(-50%, 75px);
+        transform: translateX(-50%, 100px);
     }
 }
 @media (prefers-reduced-motion: reduce) {
