@@ -188,7 +188,7 @@ a { color: inherit; text-decoration: none; }
     .hero-chip {
         left: 50%;
         right: auto;
-        transform: translateX(-10%);
+        transform: translateX(30%);
     }
 }
 @media (prefers-reduced-motion: reduce) {
