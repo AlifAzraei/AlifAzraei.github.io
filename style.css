@@ -182,7 +182,7 @@ a { color: inherit; text-decoration: none; }
 }
 @media (min-width: 1001px) {
     .portrait-frame {
-        transform: translate(100px, 80px);
+        transform: translate(50px, 30px);
     }
 
     .hero-chip {
