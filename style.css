@@ -186,9 +186,10 @@ a { color: inherit; text-decoration: none; }
     }
 
     .hero-chip {
-        left: 50%;
+        left: calc(50% + 90px);
         right: auto;
-        transform: translateX(90px);
+        bottom: 36px;
+        transform: translateX(-50%);
     }
 }
 @media (prefers-reduced-motion: reduce) {
