@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Financial reporting workspace illustration</title>
+<desc id="desc">A modern monitor and laptop displaying spreadsheet tables and green analytics charts, with a report, database, calculator and plant.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9f8f1"/><stop offset="1" stop-color="#d8eee7"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf4f7"/></linearGradient>
+ <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#36c58b"/><stop offset="1" stop-color="#07834f"/></linearGradient>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b3a5c"/><stop offset="1" stop-color="#0e223a"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#24445b" flood-opacity=".16"/></filter>
+</defs>
+<rect width="900" height="520" rx="24" fill="#f7fbfa"/>
+<path d="M0 360C130 270 225 300 340 355s210 55 320-30 175-85 240-38v233H0Z" fill="url(#bg)"/>
+<circle cx="720" cy="95" r="65" fill="#e2f4ec"/><circle cx="125" cy="105" r="50" fill="#e6f5ed"/>
+<!-- plant -->
+<g transform="translate(70 290)"><path d="M45 95V30M45 54C0 45 3 5 9 0c34 4 45 29 36 54ZM46 45C50 4 82-4 98 2c-2 35-22 52-52 43ZM44 75C10 61-1 82 3 105c25 11 42-1 41-30Z" fill="#2aaf70"/><path d="M18 104h57l-8 73H26Z" fill="#f7fbff" stroke="#c9dce0" stroke-width="4"/><path d="M14 105h65" stroke="#b6cbd0" stroke-width="5" stroke-linecap="round"/></g>
+<!-- report paper -->
+<g transform="translate(95 120)" filter="url(#shadow)"><rect width="145" height="190" rx="13" fill="#fff" stroke="#d6e3e9" stroke-width="3"/><path d="M25 34h82M25 55h95M25 76h70" stroke="#b9c9d4" stroke-width="8" stroke-linecap="round"/><rect x="25" y="105" width="95" height="52" rx="5" fill="#edf7f2"/><path d="M37 143v-16h12v16m9 0v-28h12v28m9 0v-37h12v37m9 0v-44h12v44" fill="#32b77d"/></g>
+<!-- monitor -->
+<g filter="url(#shadow)">
+ <rect x="270" y="55" width="470" height="300" rx="18" fill="url(#navy)"/>
+ <rect x="284" y="70" width="442" height="268" rx="8" fill="url(#screen)"/>
+ <rect x="284" y="70" width="442" height="30" rx="8" fill="#087c50"/>
+ <circle cx="303" cy="85" r="4" fill="#b9f1d7"/><circle cx="318" cy="85" r="4" fill="#b9f1d7"/><circle cx="333" cy="85" r="4" fill="#b9f1d7"/>
+ <!-- table -->
+ <rect x="302" y="116" width="176" height="195" rx="5" fill="#fff" stroke="#d6e2e8"/>
+ <rect x="302" y="116" width="176" height="25" fill="#bcebd5"/>
+ <path d="M302 165h176M302 190h176M302 215h176M302 240h176M302 265h176M302 290h176M360 141v170M419 141v170" stroke="#dbe6ea" stroke-width="2"/>
+ <path d="M314 154h32m-32 25h32m-32 25h32m-32 25h32m-32 25h32m-32 25h32" stroke="#9bb3c0" stroke-width="6" stroke-linecap="round"/>
+ <path d="M370 154h34m-34 25h34m-34 25h34m-34 25h34m-34 25h34m-34 25h34" stroke="#c3d2d9" stroke-width="6" stroke-linecap="round"/>
+ <!-- charts -->
+ <rect x="493" y="116" width="213" height="92" rx="7" fill="#fff" stroke="#dce7eb"/>
+ <path d="M510 188h178" stroke="#dce7eb" stroke-width="2"/>
+ <rect x="523" y="166" width="19" height="22" rx="3" fill="#55c999"/><rect x="554" y="151" width="19" height="37" rx="3" fill="#42bf89"/><rect x="585" y="139" width="19" height="49" rx="3" fill="#31b77d"/><rect x="616" y="127" width="19" height="61" rx="3" fill="#20a96e"/><rect x="647" y="119" width="19" height="69" rx="3" fill="#0c8c58"/>
+ <rect x="493" y="220" width="213" height="91" rx="7" fill="#fff" stroke="#dce7eb"/>
+ <path d="M510 290l35-23 29 9 36-31 31 7 39-30" fill="none" stroke="#149b68" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+ <path d="M510 298h178" stroke="#e0e9ec" stroke-width="2"/>
+ <path d="M505 355h0l-12 74h-24l-12-74" fill="#9bb3c4"/><path d="M424 429h170" stroke="#9bb3c4" stroke-width="12" stroke-linecap="round"/>
+</g>
+<!-- laptop foreground -->
+<g filter="url(#shadow)">
+ <rect x="215" y="265" width="300" height="185" rx="13" fill="url(#navy)"/>
+ <rect x="228" y="278" width="274" height="156" rx="5" fill="#fff"/>
+ <rect x="228" y="278" width="274" height="22" fill="#07834f"/>
+ <path d="M244 316h100M244 337h100M244 358h100M244 379h100M244 400h100" stroke="#d5e3e8" stroke-width="9" stroke-linecap="round"/>
+ <path d="M365 405h118" stroke="#dbe7ea" stroke-width="2"/>
+ <rect x="372" y="373" width="14" height="32" rx="2" fill="#70d5aa"/><rect x="394" y="351" width="14" height="54" rx="2" fill="#48c28c"/><rect x="416" y="335" width="14" height="70" rx="2" fill="#29b478"/><rect x="438" y="319" width="14" height="86" rx="2" fill="#0d965f"/>
+ <path d="M198 450h334l-25 25H223Z" fill="#b7c9d2" stroke="#829eae" stroke-width="3"/>
+ <rect x="328" y="454" width="76" height="6" rx="3" fill="#829eae"/>
+</g>
+<!-- database -->
+<g transform="translate(755 285)" filter="url(#shadow)"><ellipse cx="50" cy="16" rx="48" ry="15" fill="#9fe4c5"/><path d="M2 16v105c0 9 21 16 48 16s48-7 48-16V16" fill="#159b68"/><path d="M2 16c0 9 21 16 48 16s48-7 48-16M2 55c0 9 21 16 48 16s48-7 48-16M2 91c0 9 21 16 48 16s48-7 48-16" fill="none" stroke="#b9f0d8" stroke-width="5"/><ellipse cx="50" cy="16" rx="48" ry="15" fill="#39c48b" stroke="#087e52" stroke-width="3"/></g>
+<!-- calculator -->
+<g transform="translate(660 390)" filter="url(#shadow)"><rect width="75" height="100" rx="12" fill="#173653"/><rect x="10" y="10" width="55" height="20" rx="4" fill="#d8f1e7"/><g fill="#e7f0f4"><rect x="10" y="42" width="13" height="13" rx="3"/><rect x="31" y="42" width="13" height="13" rx="3"/><rect x="52" y="42" width="13" height="13" rx="3"/><rect x="10" y="64" width="13" height="13" rx="3"/><rect x="31" y="64" width="13" height="13" rx="3"/></g><rect x="52" y="64" width="13" height="24" rx="3" fill="#35bd83"/></g>
+<!-- verified report card -->
+<g transform="translate(770 105)" filter="url(#shadow)"><rect width="95" height="125" rx="12" fill="#fff" stroke="#d7e4e9" stroke-width="3"/><circle cx="24" cy="28" r="13" fill="#1aa66c"/><path d="m18 28 5 5 9-11" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M47 24h33M15 62h65M15 81h58M15 100h65" stroke="#c5d4dc" stroke-width="7" stroke-linecap="round"/></g>
+</svg>
