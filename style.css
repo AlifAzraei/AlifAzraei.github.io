@@ -198,3 +198,8 @@ a { color: inherit; text-decoration: none; }
   html { scroll-behavior: auto; }
   *,*::before,*::after { transition-duration: .01ms !important; }
 }
+
+/* Featured project illustration */
+.project-preview-image { display: block; height: 145px; padding: 0; background: #f2faf6; }
+.project-preview-image img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+@media (max-width: 700px) { .project-preview-image { height: 170px; } }
