@@ -1,4 +1,13 @@
-/* Modern Finance Portfolio — edit theme variables here */
+/* ==================== PANDUAN CEPAT ====================
+   Warna utama laman diubah di sini (dalam :root di bawah):
+     --navy / --navy-2 : biru gelap (header, hero, footer)
+     --blue            : biru terang (butang, tajuk menonjol)
+     --ink             : warna teks utama
+     --muted           : warna teks kelabu
+     --line            : warna garisan dan sempadan
+   Tukar satu nilai di sini dan seluruh laman berubah.
+   Gaya tambahan (fokus papan kekunci, saiz teks kecil) ada di hujung fail.
+   ====================================================== */
 :root {
   --navy: #101b31;
   --navy-2: #172945;
@@ -203,3 +212,10 @@ a { color: inherit; text-decoration: none; }
 .project-preview-image { display: block; height: 145px; padding: 0; background: #f2faf6; }
 .project-preview-image img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 @media (max-width: 700px) { .project-preview-image { height: 170px; } }
+
+/* ===== Pembaharuan (tambahan di hujung fail) ===== */
+/* Fokus papan kekunci yang jelas */
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; border-radius: 4px; }
+/* Teks kecil dibesarkan sedikit supaya senang dibaca */
+.project-tags span, .experience-label { font-size: .72rem; }
+.project-top p { font-size: .78rem; }
